@@ -220,8 +220,8 @@ sampledContours = SampleContours(contours,10,type='uniform')
 # for i,contour in enumerate(sampledContours):
 #     # plt.plot(contour[0], contour[1], linewidth=0.5, color='r')
 #     plt.plot(contour[0], contour[1], 'o')
-plt.imshow(z1 + z2 + z3, cmap=cm.gist_earth)
-plt.show()
+# plt.imshow(z1 + z2 + z3, cmap=cm.gist_earth)
+# plt.show()
 
 allPoints = []
 for i,contour in enumerate(sampledContours):
